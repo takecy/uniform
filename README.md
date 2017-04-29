@@ -6,12 +6,14 @@
 :tshirt: Deployed resource (in EC2 instances) version is uniform ?
 
 <br/>
+
 ## Overview
 Check version of deployed resources on multiple servers.  
 If you deployed resources(ex)api binary) to multiple server,  
 all resources, Is the same version on all servers?
 
 <br/>
+
 ## Usage
 Set your AWS Key, Secret to Environment Variables.
 ```bash
@@ -31,6 +33,7 @@ $ uniform -t Environment=Production,Type=API,Name=1a01
 
 
 <br/>
+
 ## Features
 - [x] Check resource version
  - [x] Specific version API endpoint
@@ -39,6 +42,7 @@ $ uniform -t Environment=Production,Type=API,Name=1a01
 - [x] Support Autoscaling
 
 <br/>
+
 ## Development
 ```bash
 $ git clone git@github.com:takecy/uniform.git
@@ -48,5 +52,6 @@ $ make test
 ```
 
 <br/>
+
 ## LICENSE
 MIT
